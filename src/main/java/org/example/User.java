@@ -11,14 +11,15 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class User {
-    private String role;
-    public String username;
+    private boolean isAuthenticated;
+    private Role role;
+    private String username;
+    private String password;
 
-    public String password;
-
-    public User(String username,String password,String role) {
+    public User(String username,String password,Role role) {
         this.username = username;
         this.password = password;
         this.role = role;
+        this.isAuthenticated = false;
     }
 }

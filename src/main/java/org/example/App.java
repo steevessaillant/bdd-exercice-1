@@ -1,30 +1,40 @@
 package org.example;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+import javax.annotation.CheckForNull;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
-/**
- * Hello world!
- *
- */
+
+@Getter
+@Setter
+@ToString
+@NoArgsConstructor
 public class App 
 {
-    public List<User> Users = new ArrayList<>();
-    public User CreateNewUser(String username, String password, String role) {
+    private List<User> users = new ArrayList<>();
+    public User createNewUser(String username, String password, Role role) {
 
         User user;
 
-        switch (username){
-            case "admin":
-                user = new User(username,password,role);
-                this.Users.add(user);
-                break;
-            default:
-                user = null;
-        }
-        if(user != null)
-            return user;
-        else
-            return null;
+        user = new User(username,password,role);
+        this.users.add(user);
+        return user;
+
+    }
+
+    @CheckForNull
+    public User login(User user) throws NullPointerException{
+        User authenticatedUser = this.users.stream()
+                .filter(x -> Objects.equals(x.getUsername(), user.getUsername()) && Objects.equals(x.getPassword(), user.getPassword()))
+                .findAny()
+                .orElse(null);
+        authenticatedUser.setAuthenticated(true);
+        return authenticatedUser;
     }
 }
