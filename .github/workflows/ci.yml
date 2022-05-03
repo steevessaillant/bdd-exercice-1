@@ -29,7 +29,7 @@ jobs:
         with:
           java-version: 11
       - name: Run Jacoco code coverage with sonarcloud
-        run: mvn sonar:sonar -Pcoverage -Dsonar.projectKey=bdd-exercice-1 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a330e89a5510e89a76a8b67cf73e25ce95e03e8a
+        run: mvn sonar:sonar -Pcoverage -Dsonar.organization=steevesaillant-github  -Dsonar.projectKey=steevessaillant_bdd-exercice-1 -Dsonar.login=a330e89a5510e89a76a8b67cf73e25ce95e03e8a
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
@@ -43,7 +43,8 @@ jobs:
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
       - name: Build and analyze
+        uses: sonarsource/sonarcloud-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=steevessaillant_bdd-exercice-1
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.organization=steevesaillant-github  -Dsonar.projectKey=steevessaillant_bdd-exercice-1
