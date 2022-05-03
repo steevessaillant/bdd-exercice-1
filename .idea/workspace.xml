@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="remove some unused attrbutes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="ADD README MD COMMENT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -378,7 +375,28 @@
       <option name="project" value="LOCAL" />
       <updated>1651615301477</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="remove some unused attrbutes">
+      <created>1651615901412</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1651615901412</updated>
+    </task>
+    <task id="LOCAL-00030" summary="revert to master just to se sonarclousds reaction">
+      <created>1651615994772</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1651615994772</updated>
+    </task>
+    <task id="LOCAL-00031" summary="ADD README MD COMMENT">
+      <created>1651616151926</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1651616151926</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -419,7 +437,9 @@
     <MESSAGE value="imporove unit test coverage  with null validation" />
     <MESSAGE value="imporove unit test coverage  with null validation&#10;and alosi clean uo build&#10;yamls" />
     <MESSAGE value="remove some unused attrbutes" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove some unused attrbutes" />
+    <MESSAGE value="revert to master just to se sonarclousds reaction" />
+    <MESSAGE value="ADD README MD COMMENT" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD README MD COMMENT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
