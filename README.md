@@ -3,3 +3,5 @@
 [![Build](https://github.com/steevessaillant/bdd-exercice-1/actions/workflows/main.yml/badge.svg)](https://github.com/steevessaillant/bdd-exercice-1/actions/workflows/main.yml)
 
 Template is now usable.
+
+Steeves Saillant
