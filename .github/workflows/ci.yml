@@ -18,8 +18,6 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
-      - name: Run Jacoco code coverage
-        run: mvn jacoco:report
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
@@ -37,3 +35,5 @@ jobs:
           GITHUB_TOKEN: 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  # Needed to get PR information, if any
           SONAR_TOKEN: cddea6594396c39d5681aa6b72a71a4d5e1e012a
         run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+      - name: Run Jacoco code coverage
+        run: mvn jacoco:report
