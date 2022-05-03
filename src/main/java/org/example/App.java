@@ -34,7 +34,10 @@ public class App
                 .filter(x -> Objects.equals(x.getUsername(), user.getUsername()) && Objects.equals(x.getPassword(), user.getPassword()))
                 .findAny()
                 .orElse(null);
-        authenticatedUser.setAuthenticated(true);
+        if(authenticatedUser  != null)
+            authenticatedUser.setAuthenticated(true);
+        else
+            throw new NullPointerException("User cannot be null");
         return authenticatedUser;
     }
 }
