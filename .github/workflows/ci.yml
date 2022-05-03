@@ -29,7 +29,7 @@ jobs:
         with:
           java-version: 11
       - name: Run Jacoco code coverage with sonarcloud
-        run: mvn sonar:sonar -Pcoverage
+        run: mvn sonar:sonar -Pcoverage -Dsonar.projectKey=bdd-exercice-1 -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a330e89a5510e89a76a8b67cf73e25ce95e03e8a
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:
