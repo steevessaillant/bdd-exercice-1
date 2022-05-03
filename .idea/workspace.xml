@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="fix build  no2">
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="fix NullPointerException sonar issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/App.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull">
     <configuration name="Feature: SimpleFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,16 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.appCreateNewshouldAddNewUserToItsUsersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bdd-exercice-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="appCreateNewshouldAddNewUserToItsUsersList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bdd-exercice-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -156,20 +163,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bdd-exercice-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
+      <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
       <item itemvalue="JUnit.AppTest.appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" />
-      <item itemvalue="JUnit.AppTest.appCreateNewshouldAddNewUserToItsUsersList" />
       <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
       <item itemvalue="JUnit.AppTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
         <item itemvalue="JUnit.AppTest.appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" />
-        <item itemvalue="JUnit.AppTest.appCreateNewshouldAddNewUserToItsUsersList" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651613710631</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="fix NullPointerException sonar issue">
+      <created>1651614326047</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1651614326047</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +418,8 @@
     <MESSAGE value="add sonar props" />
     <MESSAGE value="fix build" />
     <MESSAGE value="fix build  no2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix build  no2" />
+    <MESSAGE value="fix NullPointerException sonar issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix NullPointerException sonar issue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,6 +458,44 @@
           <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java</url>
           <line>36</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>33</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

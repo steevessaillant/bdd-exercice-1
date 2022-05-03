@@ -37,7 +37,7 @@ public class App
         if(authenticatedUser  != null)
             authenticatedUser.setAuthenticated(true);
         else
-            throw new NullPointerException("User cannot be null");
+            throw new NullPointerException();
         return authenticatedUser;
     }
 }
