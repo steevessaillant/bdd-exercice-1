@@ -46,4 +46,4 @@ jobs:
         env:
           GITHUB_TOKEN: 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  # Needed to get PR information, if any
           SONAR_TOKEN: cddea6594396c39d5681aa6b72a71a4d5e1e012a
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.organization=steevesaillant-github  -Dsonar.projectKey=steevessaillant_bdd-exercice-1
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
