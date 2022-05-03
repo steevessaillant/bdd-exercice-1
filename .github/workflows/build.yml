@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 11
+      - name: Run Jacoco code coverage with sonarcloud
+        run: mvn sonar:sonar -Pcoverage
       - name: Cache SonarCloud packages
         uses: actions/cache@v1
         with:

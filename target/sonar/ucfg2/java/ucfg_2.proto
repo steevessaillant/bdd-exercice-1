@@ -1,0 +1,76 @@
+
+;org.example.App#login(Lorg/example/User;)Lorg/example/User;b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java   ("startingBlock*Õ
+startingBlockb
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java   ( ∏
+µ
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java (
+%8"
+__annotate*!
+javax.annotation.CheckForNull*
+
+userorg.example.Useró
+î
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java   (
+userorg.example.User"__annotation*
+
+%8*
+1*£
+1b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! !(%£
+†
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! !(+
+%0java.util.List"__id**
+org.example.App"
+users‡›
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! !(4
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%0java.util.List2stream()≈
+¬
+c
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java" "(á"
+%2java.util.function.Predicate"__declareFunction*$"
+ __sonar_lambda_0$org.example.Appl
+j
+
+__unknown_file (,
+"
+%2java.util.function.Predicate"
+user"__id*
+
+userorg.example.UserœÃ
+c
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! "(à
+%5java.util.stream.Stream"Wjava.util.stream.Stream#filter(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;*
+
+%1java.util.stream.Stream*$
+"
+%2java.util.function.Predicate2&filter(Ljava/util/function/Predicate;)‰·
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! #(
+%6java.util.Optional"5java.util.stream.Stream#findAny()Ljava/util/Optional;*
+
+%5java.util.stream.Stream2	findAny()Ä˝
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java!! $(
+%7org.example.User"?java.util.Optional#orElse(Ljava/lang/Object;)Ljava/lang/Object;*
+
+%6java.util.Optional*
+""2orElse(Ljava/lang/Object;)Æ
+´
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java! $(%
+authenticatedUserorg.example.User"__id*
+
+%7org.example.User"ç
+b
+XC:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/main/java/org/example/App.java& &(!'
+%
+authenticatedUserorg.example.User:
+userorg.example.UserB
+org.example.App
