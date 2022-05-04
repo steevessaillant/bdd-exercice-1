@@ -4,15 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="just trigger build">
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="fix again ci">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Role.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/User.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +111,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull">
+  <component name="RunManager" selected="Cucumber Java.Feature: SimpleFeature (1)">
+    <configuration name="Feature: SimpleFeature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
+      <option name="GLUE" value="org.example.StepsDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd-exercice-1" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: SimpleFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -132,16 +185,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bdd-exercice-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bdd-exercice-1" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,19 +206,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
       <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
       <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
-      <item itemvalue="JUnit.AppTest.appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" />
       <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
       <item itemvalue="JUnit.AppTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
+        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
-        <item itemvalue="JUnit.AppTest.appCreateNewShouldReturnNewlyAddedUserAndsAlsoAddItToTheUsersList" />
       </list>
     </recent_temporary>
   </component>
@@ -187,104 +230,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00001" summary="1st">
-      <created>1651532995713</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1651532995713</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1st">
-      <created>1651580439290</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1651580439290</updated>
-    </task>
-    <task id="LOCAL-00003" summary="All tests implemented.">
-      <created>1651586649091</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1651586649091</updated>
-    </task>
-    <task id="LOCAL-00004" summary="All tests implemented.">
-      <created>1651586682353</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1651586682353</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fix issue with maben url">
-      <created>1651587683925</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1651587683925</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fix issue with maven url, commit sonar files">
-      <created>1651587708027</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1651587708027</updated>
-    </task>
-    <task id="LOCAL-00007" summary="fix issue with maven url, commit sonar files">
-      <created>1651587722096</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1651587722096</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix issue with maven url, commit sonar files">
-      <created>1651587764912</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1651587764912</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add jACOCO">
-      <created>1651589084431</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1651589084431</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add sonar-cloud settings">
-      <created>1651589963813</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1651589963813</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add yaml build file">
-      <created>1651590079882</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1651590079882</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update README.md">
-      <created>1651590175695</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1651590175695</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ci/cd file for main branch">
-      <created>1651605997465</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1651605997465</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ci/cd files for main branch">
-      <created>1651606950499</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1651606950499</updated>
     </task>
     <task id="LOCAL-00015" summary="update status badges">
       <created>1651607028662</created>
@@ -419,8 +364,229 @@
       <option name="project" value="LOCAL" />
       <updated>1651616920329</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="update secret">
+      <created>1651617779309</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1651617779309</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update README.md">
+      <created>1651618044033</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1651618044033</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fix build">
+      <created>1651618537077</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1651618537077</updated>
+    </task>
+    <task id="LOCAL-00037" summary="fix build last time">
+      <created>1651619056001</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1651619056001</updated>
+    </task>
+    <task id="LOCAL-00038" summary="fix build last time">
+      <created>1651619094861</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1651619094861</updated>
+    </task>
+    <task id="LOCAL-00039" summary="fix build last time 2">
+      <created>1651619162511</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1651619162511</updated>
+    </task>
+    <task id="LOCAL-00040" summary="uodate yaml">
+      <created>1651671686285</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1651671686285</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update yaml">
+      <created>1651671780896</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1651671780896</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update yaml 3">
+      <created>1651671867587</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1651671867587</updated>
+    </task>
+    <task id="LOCAL-00043" summary="switch to ubuntu in yaml">
+      <created>1651672198204</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1651672198204</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fix yaml">
+      <created>1651672494007</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1651672494007</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fix yaml">
+      <created>1651672643182</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1651672643182</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix yaml">
+      <created>1651672749467</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1651672749467</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fix yaml">
+      <created>1651674586804</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1651674586804</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fix yaml">
+      <created>1651675019738</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675019738</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fix yaml build command">
+      <created>1651675143138</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675143138</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fix yaml build command parameter Dsonar.test value">
+      <created>1651675258469</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675258469</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fix yaml build command parameter Dsonar.test value 2">
+      <created>1651675355206</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675355206</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fix yaml build command parameter Dsonar.test value 3">
+      <created>1651675426003</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675426003</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix yaml build command parameter Dsonar.test value 4">
+      <created>1651675510956</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675510956</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix yaml build command parameter Dsonar.test value 5">
+      <created>1651675618770</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1651675618770</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix yaml build command parameter Dsonar.test value 6">
+      <created>1651676111272</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676111272</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix yaml build command parameter Dsonar.test value 7">
+      <created>1651676146774</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676146774</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix yaml build command parameter Dsonar.test value 8">
+      <created>1651676424315</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676424315</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix yaml build command parameter Dsonar.test value use mvn run">
+      <created>1651676525278</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676525279</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix yaml build command parameter Dsonar.test value use mvn run jacoco before">
+      <created>1651676826633</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676826633</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix yaml build command parameter Dsonar.test value use mvn run jacoco after">
+      <created>1651677037144</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1651677037144</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix yaml build command parameter Dsonar.test value use mvn run jacoco before + test">
+      <created>1651677691862</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1651677691862</updated>
+    </task>
+    <task id="LOCAL-00062" summary="merge jacoco and verify steps">
+      <created>1651685199024</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1651685199024</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix again ci">
+      <created>1651685788840</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1651685788840</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -437,32 +603,32 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="fix issue with maben url" />
-    <MESSAGE value="fix issue with maven url, commit sonar files" />
-    <MESSAGE value="add jACOCO" />
-    <MESSAGE value="add sonar-cloud settings" />
-    <MESSAGE value="add yaml build file" />
+    <MESSAGE value="update secret" />
     <MESSAGE value="update README.md" />
-    <MESSAGE value="add jacoco profile" />
-    <MESSAGE value="ci/cd file for main branch" />
-    <MESSAGE value="ci/cd files for main branch" />
-    <MESSAGE value="update status badges" />
-    <MESSAGE value="update rons on to windows-latest" />
-    <MESSAGE value="fix jacoco xmlReportPaths" />
-    <MESSAGE value="push sonarcloud update" />
-    <MESSAGE value="push sonarcloud update with cloud creds" />
-    <MESSAGE value="add sonar props" />
     <MESSAGE value="fix build" />
-    <MESSAGE value="fix build  no2" />
-    <MESSAGE value="fix NullPointerException sonar issue" />
-    <MESSAGE value="imporove unit test coverage  with null validation" />
-    <MESSAGE value="imporove unit test coverage  with null validation&#10;and alosi clean uo build&#10;yamls" />
-    <MESSAGE value="remove some unused attrbutes" />
-    <MESSAGE value="revert to master just to se sonarclousds reaction" />
-    <MESSAGE value="ADD README MD COMMENT" />
-    <MESSAGE value="revert to main" />
-    <MESSAGE value="just trigger build" />
-    <option name="LAST_COMMIT_MESSAGE" value="just trigger build" />
+    <MESSAGE value="fix build last time" />
+    <MESSAGE value="fix build last time 2" />
+    <MESSAGE value="uodate yaml" />
+    <MESSAGE value="update yaml" />
+    <MESSAGE value="update yaml 3" />
+    <MESSAGE value="switch to ubuntu in yaml" />
+    <MESSAGE value="fix yaml" />
+    <MESSAGE value="fix yaml build command" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 2" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 3" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 4" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 5" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 6" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 7" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value 8" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run jacoco before" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run jacoco after" />
+    <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run jacoco before + test" />
+    <MESSAGE value="merge jacoco and verify steps" />
+    <MESSAGE value="fix again ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix again ci" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
