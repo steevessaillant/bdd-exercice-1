@@ -30,11 +30,6 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-      - name: Run tests for Junit reports
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn clean test site
       - name: Build and analyze with maven and sonarcloud
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
