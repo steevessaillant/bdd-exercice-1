@@ -36,21 +36,11 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
         with:
           args:
-            -Dsonar.projectKey=org.example:bdd-exercice-1
-            -Dsonar.organization=steevessaillant-github
+            -Dsonar.projectKey=org.example:bdd-exercice-1 
+            -Dsonar.organization=steevessaillant-github 
             -Dsonar.tests=src/it,src.test
         run: mvn -B verify org.sonarsource.scanner.maven:sonar
       - name: Run Jacoco code coverage
         run: mvn jacoco:report
-      - name: Analyze with SonarCloud
-        uses: SonarSource/sonarcloud-github-action@de2e56b42aa84d0b1c5b622644ac17e505c9a049
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
-            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
-        with:
-            args:
-              -Dsonar.projectKey=org.example:bdd-exercice-1
-              -Dsonar.organization=steevessaillant-github
-              -Dsonar.tests=src/it,src.test
 permissions:
   pull-requests: read # allows SonarCloud to decorate PRs with analysis results
