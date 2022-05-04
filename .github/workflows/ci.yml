@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ env.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar  -Dsonar.projectKey=org.example:bdd-exercice-1 -Dsonar.organization=steevessaillant-github -Dsonar.tests=./src/it,./src/test
+        #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar  -Dsonar.projectKey=org.example:bdd-exercice-1 -Dsonar.organization=steevessaillant-github -Dsonar.tests=./src/it,./src/test
       - name: Run Jacoco code coverage
         run: mvn jacoco:report
 permissions:
