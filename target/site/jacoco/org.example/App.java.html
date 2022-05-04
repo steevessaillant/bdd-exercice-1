@@ -2,9 +2,6 @@
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-
 import javax.annotation.CheckForNull;
 import java.util.ArrayList;
 import java.util.List;
@@ -12,33 +9,31 @@ import java.util.Objects;
 
 
 @Getter
-<span class="nc" id="L15">@Setter</span>
-<span class="nc" id="L16">@ToString</span>
-<span class="fc" id="L17">@NoArgsConstructor</span>
+<span class="fc" id="L12">@NoArgsConstructor</span>
 public class App 
 {
-<span class="fc" id="L20">    private List&lt;User&gt; users = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L15">    private final List&lt;User&gt; users = new ArrayList&lt;&gt;();</span>
     public User createNewUser(String username, String password, Role role) {
 
         User user;
 
-<span class="fc" id="L25">        user = new User(username,password,role);</span>
-<span class="fc" id="L26">        this.users.add(user);</span>
-<span class="fc" id="L27">        return user;</span>
+<span class="fc" id="L20">        user = new User(username,password,role);</span>
+<span class="fc" id="L21">        this.users.add(user);</span>
+<span class="fc" id="L22">        return user;</span>
 
     }
 
     @CheckForNull
     public User login(User user) throws NullPointerException{
-<span class="fc" id="L33">        User authenticatedUser = this.users.stream()</span>
-<span class="pc bpc" id="L34" title="2 of 4 branches missed.">                .filter(x -&gt; Objects.equals(x.getUsername(), user.getUsername()) &amp;&amp; Objects.equals(x.getPassword(), user.getPassword()))</span>
-<span class="fc" id="L35">                .findAny()</span>
-<span class="fc" id="L36">                .orElse(null);</span>
-<span class="fc bfc" id="L37" title="All 2 branches covered.">        if(authenticatedUser  != null)</span>
-<span class="fc" id="L38">            authenticatedUser.setAuthenticated(true);</span>
+<span class="fc" id="L28">        User authenticatedUser = this.users.stream()</span>
+<span class="pc bpc" id="L29" title="2 of 4 branches missed.">                .filter(x -&gt; Objects.equals(x.getUsername(), user.getUsername()) &amp;&amp; Objects.equals(x.getPassword(), user.getPassword()))</span>
+<span class="fc" id="L30">                .findAny()</span>
+<span class="fc" id="L31">                .orElse(null);</span>
+<span class="fc bfc" id="L32" title="All 2 branches covered.">        if(authenticatedUser  != null)</span>
+<span class="fc" id="L33">            authenticatedUser.setAuthenticated(true);</span>
         else
-<span class="fc" id="L40">            throw new NullPointerException();</span>
-<span class="fc" id="L41">        return authenticatedUser;</span>
+<span class="fc" id="L35">            throw new NullPointerException();</span>
+<span class="fc" id="L36">        return authenticatedUser;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
