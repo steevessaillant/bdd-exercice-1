@@ -43,19 +43,9 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Generate a token on Sonarcloud.io, add it to the secrets of this repo with the name SONAR_TOKEN (Settings > Secrets > Actions > add new repository secret)
         with:
-            # Additional arguments for the sonarcloud scanner
             args:
-              # Unique keys of your project and organization. You can find them in SonarCloud > Information (bottom-left menu)
-              # mandatory
               -Dsonar.projectKey=org.example:bdd-exercice-1
               -Dsonar.organization=steevessaillant-github
-              # Comma-separated paths to directories containing main source files.
-              #-Dsonar.sources= # optional, default is project base directory
-              # When you need the analysis to take place in a directory other than the one from which it was launched
-              #-Dsonar.projectBaseDir= # optional, default is .
-              # Comma-separated paths to directories containing test source files.
               -Dsonar.tests=src/it,src.test
-              # Adds more detail to both client and server-side analysis logs, activating DEBUG mode for the scanner, and adding client-side environment variables and system properties to the server-side log of analysis report processing.
-              #-Dsonar.verbose= # optional, default is false
 permissions:
   pull-requests: read # allows SonarCloud to decorate PRs with analysis results
