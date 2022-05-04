@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="fix again ci">
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="revert last commits">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
@@ -230,34 +229,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00015" summary="update status badges">
-      <created>1651607028662</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1651607028662</updated>
-    </task>
-    <task id="LOCAL-00016" summary="update rons on to windows-latest">
-      <created>1651607380110</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1651607380110</updated>
-    </task>
-    <task id="LOCAL-00017" summary="update rons on to windows-latest">
-      <created>1651607737521</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1651607737521</updated>
-    </task>
-    <task id="LOCAL-00018" summary="fix jacoco xmlReportPaths">
-      <created>1651609092526</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1651609092526</updated>
     </task>
     <task id="LOCAL-00019" summary="push sonarcloud update">
       <created>1651609797808</created>
@@ -574,7 +545,35 @@
       <option name="project" value="LOCAL" />
       <updated>1651685788840</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add maven-surefire-report-plugin for junit test reporting">
+      <created>1651692777366</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1651692777366</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add run unit test step">
+      <created>1651692919059</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1651692919059</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add run unit test step ammend">
+      <created>1651693072264</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1651693072264</updated>
+    </task>
+    <task id="LOCAL-00067" summary="revert last commits">
+      <created>1651693185595</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1651693185595</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -603,10 +602,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="update secret" />
-    <MESSAGE value="update README.md" />
-    <MESSAGE value="fix build" />
-    <MESSAGE value="fix build last time" />
     <MESSAGE value="fix build last time 2" />
     <MESSAGE value="uodate yaml" />
     <MESSAGE value="update yaml" />
@@ -628,7 +623,11 @@
     <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run jacoco before + test" />
     <MESSAGE value="merge jacoco and verify steps" />
     <MESSAGE value="fix again ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix again ci" />
+    <MESSAGE value="add maven-surefire-report-plugin for junit test reporting" />
+    <MESSAGE value="add run unit test step" />
+    <MESSAGE value="add run unit test step ammend" />
+    <MESSAGE value="revert last commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert last commits" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
