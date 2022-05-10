@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="revert last commits">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="add comment">
+      <change afterPath="$PROJECT_DIR$/src/it/resources/cucumber.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,13 +191,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00019" summary="push sonarcloud update">
-      <created>1651609797808</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1651609797808</updated>
     </task>
     <task id="LOCAL-00020" summary="push sonarcloud update with cloud creds">
       <created>1651610816255</created>
@@ -534,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651693185595</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="add comment">
+      <created>1652190129944</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1652190129944</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -563,7 +564,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="fix build last time 2" />
     <MESSAGE value="uodate yaml" />
     <MESSAGE value="update yaml" />
     <MESSAGE value="update yaml 3" />
@@ -588,7 +588,8 @@
     <MESSAGE value="add run unit test step" />
     <MESSAGE value="add run unit test step ammend" />
     <MESSAGE value="revert last commits" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert last commits" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
