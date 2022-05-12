@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="add comment">
-      <change afterPath="$PROJECT_DIR$/src/it/resources/cucumber.properties" afterDir="false" />
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="set cucumber.publish.enabled=true for https://reports.cucumber.io/">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Role.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SimpleFeature (1)">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="Feature: SimpleFeature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
@@ -175,8 +174,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
@@ -669,7 +668,15 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.App" memberName="users" />
+      </pinned-members>
+    </pin-to-top-manager>
     <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="testUser.toString()" />
+      </configuration>
       <configuration name="CucumberJavaRunConfigurationType">
         <watch expression="actual" />
         <watch expression="users" />
