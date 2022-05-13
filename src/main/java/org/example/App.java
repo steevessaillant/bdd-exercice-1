@@ -38,7 +38,10 @@ public class App
         return authenticatedUser;
     }
 
-    public void promoteUserToAdmin(User testUser) {
-        testUser.setRole(Role.ADMIN);
+    public void promoteUserToAdmin(User user) throws NullPointerException{
+        if(user != null)
+            user.setRole(Role.ADMIN);
+        else
+            throw new NullPointerException("user was null");
     }
 }
