@@ -5,7 +5,9 @@ import org.example.Role;
 import org.example.User;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 import java.util.Objects;
 
@@ -15,7 +17,8 @@ import java.util.Objects;
 public class AppTest 
 {
     private final App application = new App();
-
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
     @Before
     public void setup(){
         this.application.getUsers().clear();
@@ -41,9 +44,10 @@ public class AppTest
         User testUser = this.application.login(this.application.createNewUser("testuser","!!@#$$$ytuttest",Role.USER));
         assertTrue(Objects.requireNonNull(testUser).isAuthenticated());
     }
-    @Test(expected = NullPointerException.class)
+    @Test
     public void appLoginShouldThrowANullPointerExceptionWhenUserIsNull()
     {
+        thrown.expect(NullPointerException.class);
         this.application.login(null);
     }
 
@@ -59,9 +63,10 @@ public class AppTest
         }
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test
     public void promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull()
     {
+        thrown.expect(NullPointerException.class);
         this.application.promoteUserToAdmin(null);
     }
 }
