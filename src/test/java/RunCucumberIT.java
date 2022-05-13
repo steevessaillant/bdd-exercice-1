@@ -7,5 +7,5 @@ import org.junit.runner.RunWith;
         features ="src/it/resources",
         glue = {"org.example.StepsDefs"},
         monochrome = true )
-public class RunCucumberTest {
+public class RunCucumberIT {
 }

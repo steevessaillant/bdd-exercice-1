@@ -4,9 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="set cucumber.publish.enabled=true for https://reports.cucumber.io/">
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="trigger build">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/resources/cucumber.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RunCucumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunCucumberIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RunCucumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleFeature.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +65,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
-    &quot;LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/test/java/org/example&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SteevesSaillant/source/github/bdd-exercice-1/target/IntelliJ-Cov-Output&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;sonarlint&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_directory_selection": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/test/java/org/example",
+    "last_opened_file_path": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/target/IntelliJ-Cov-Output",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
@@ -71,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: SimpleFeature (1)">
     <configuration name="Feature: SimpleFeature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
@@ -140,6 +157,7 @@
       <module name="bdd-exercice-1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -174,8 +192,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
@@ -190,13 +208,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00020" summary="push sonarcloud update with cloud creds">
-      <created>1651610816255</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1651610816255</updated>
     </task>
     <task id="LOCAL-00021" summary="push sonarcloud update with cloud creds">
       <created>1651610965311</created>
@@ -534,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652190129944</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="trigger build">
+      <created>1652369014252</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1652369014254</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -563,7 +581,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="uodate yaml" />
     <MESSAGE value="update yaml" />
     <MESSAGE value="update yaml 3" />
     <MESSAGE value="switch to ubuntu in yaml" />
@@ -588,7 +605,8 @@
     <MESSAGE value="add run unit test step ammend" />
     <MESSAGE value="revert last commits" />
     <MESSAGE value="add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
+    <MESSAGE value="trigger build" />
+    <option name="LAST_COMMIT_MESSAGE" value="trigger build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -614,17 +632,17 @@
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java</url>
+          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/ITLoginSteps.java</url>
           <line>30</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java</url>
+          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/ITLoginSteps.java</url>
           <line>31</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java</url>
+          <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/ITLoginSteps.java</url>
           <line>36</line>
           <option name="timeStamp" value="61" />
         </line-breakpoint>
