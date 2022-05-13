@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761d4f6d-fc31-411a-b0d1-93a998af2547" name="Changes" comment="add comment">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StepsDefs/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/example/StepsDefs/LoginSteps.class" afterDir="false" />
+    <list default="true" id="761d4f6d-fc31-411a-b0d1-93a998af2547" name="Changes" comment="improve assert thrown">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00024" summary="fix build">
-      <created>1651613415105</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1651613415105</updated>
     </task>
     <task id="LOCAL-00025" summary="fix build  no2">
       <created>1651613710631</created>
@@ -536,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652468782023</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="improve assert thrown">
+      <created>1652469276162</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1652469276162</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -565,7 +560,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="fix yaml" />
     <MESSAGE value="fix yaml build command" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 2" />
@@ -590,7 +584,8 @@
     <MESSAGE value="clean up User class" />
     <MESSAGE value="raise coverage to 100%" />
     <MESSAGE value="add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
+    <MESSAGE value="improve assert thrown" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve assert thrown" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -704,6 +699,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull.ic" NAME="AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull Coverage Results" MODIFIED="1652455936919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_appCreateNewshouldAddNewUserToItsUsersList.ic" NAME="AppTest.appCreateNewshouldAddNewUserToItsUsersList Coverage Results" MODIFIED="1651581040708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1652468941466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1652469389067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

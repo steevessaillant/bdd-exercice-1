@@ -42,6 +42,6 @@ public class App
         if(user != null)
             user.setRole(Role.ADMIN);
         else
-            throw new NullPointerException("user was null");
+            throw new NullPointerException();
     }
 }
