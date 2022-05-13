@@ -48,10 +48,13 @@ public class AppTest
     }
 
     @Test
-    public void promoteToAdminRoleShouldPromoteTheUserToAdmin()
+    public void promoteToAdminRoleShouldPromoteTheUserToAdmin() throws NullPointerException
     {
-        User actual = this.application.login(this.application.createNewUser("testuser","!!@#$$$ytuttest",Role.USER));
-        this.application.promoteUserToAdmin(Objects.requireNonNull(actual));
+        User actual = this.application.login(this.application.createNewUser("testuser", "!!@#$$$ytuttest", Role.USER));
+        assert actual != null;
+        this.application.promoteUserToAdmin(actual);
         Assert.assertSame(Role.ADMIN, actual.getRole());
+
+
     }
 }
