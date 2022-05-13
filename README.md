@@ -4,4 +4,5 @@
 
 Template is now usable.
 
-Steeves Saillant
+
+Steeves Saillant, coach QA 
