@@ -9,31 +9,40 @@ import java.util.Objects;
 
 
 @Getter
-<span class="fc" id="L12">@NoArgsConstructor</span>
+<span class="nc" id="L12">@NoArgsConstructor</span>
 public class App 
 {
-<span class="fc" id="L15">    private final List&lt;User&gt; users = new ArrayList&lt;&gt;();</span>
+<span class="nc" id="L15">    private final List&lt;User&gt; users = new ArrayList&lt;&gt;();</span>
     public User createNewUser(String username, String password, Role role) {
 
         User user;
-
-<span class="fc" id="L20">        user = new User(username,password,role);</span>
-<span class="fc" id="L21">        this.users.add(user);</span>
-<span class="fc" id="L22">        return user;</span>
+<span class="nc" id="L19">        user = new User();</span>
+<span class="nc" id="L20">        user.setUsername(username);</span>
+<span class="nc" id="L21">        user.setPassword(password);</span>
+<span class="nc" id="L22">        user.setRole(role);</span>
+<span class="nc" id="L23">        this.users.add(user);</span>
+<span class="nc" id="L24">        return user;</span>
 
     }
 
     @CheckForNull
     public User login(User user) throws NullPointerException{
-<span class="fc" id="L28">        User authenticatedUser = this.users.stream()</span>
-<span class="pc bpc" id="L29" title="2 of 4 branches missed.">                .filter(x -&gt; Objects.equals(x.getUsername(), user.getUsername()) &amp;&amp; Objects.equals(x.getPassword(), user.getPassword()))</span>
-<span class="fc" id="L30">                .findAny()</span>
-<span class="fc" id="L31">                .orElse(null);</span>
-<span class="fc bfc" id="L32" title="All 2 branches covered.">        if(authenticatedUser  != null)</span>
-<span class="fc" id="L33">            authenticatedUser.setAuthenticated(true);</span>
+<span class="nc" id="L30">        User authenticatedUser = this.users.stream()</span>
+<span class="nc bnc" id="L31" title="All 4 branches missed.">                .filter(x -&gt; Objects.equals(x.getUsername(), user.getUsername()) &amp;&amp; Objects.equals(x.getPassword(), user.getPassword()))</span>
+<span class="nc" id="L32">                .findAny()</span>
+<span class="nc" id="L33">                .orElse(null);</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">        if(authenticatedUser  != null)</span>
+<span class="nc" id="L35">            authenticatedUser.setAuthenticated(true);</span>
         else
-<span class="fc" id="L35">            throw new NullPointerException();</span>
-<span class="fc" id="L36">        return authenticatedUser;</span>
+<span class="nc" id="L37">            throw new NullPointerException();</span>
+<span class="nc" id="L38">        return authenticatedUser;</span>
     }
+
+    public void promoteUserToAdmin(User user) throws NullPointerException{
+<span class="nc bnc" id="L42" title="All 2 branches missed.">        if(user != null)</span>
+<span class="nc" id="L43">            user.setRole(Role.ADMIN);</span>
+        else
+<span class="nc" id="L45">            throw new NullPointerException(&quot;user was null&quot;);</span>
+<span class="nc" id="L46">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

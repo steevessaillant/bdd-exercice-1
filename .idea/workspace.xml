@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="raise coverage to 100%">
+    <list default="true" id="ca722f93-88e3-4862-af77-22e50d972612" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/java/org/example/StepsDefs/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
     "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -58,7 +58,7 @@
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_directory_selection": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/test/java/org/example",
     "last_opened_file_path": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/target/IntelliJ-Cov-Output",
-    "settings.editor.selected.configurable": "coverage"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,28 +80,6 @@
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="bdd-exercice-1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: SimpleFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SimpleFeature.feature" />
-      <option name="GLUE" value="org.example.StepDefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="bdd-exercice-1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -167,9 +145,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bdd-exercice-1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
-      <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
+      <item itemvalue="JUnit.AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull" />
       <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
       <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
       <item itemvalue="JUnit.AppTest" />
@@ -177,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
-        <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
       </list>
     </recent_temporary>
   </component>
@@ -192,83 +180,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00023" summary="add sonar props">
-      <created>1651612168126</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1651612168126</updated>
-    </task>
-    <task id="LOCAL-00024" summary="fix build">
-      <created>1651613415105</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1651613415105</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fix build  no2">
-      <created>1651613710631</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1651613710631</updated>
-    </task>
-    <task id="LOCAL-00026" summary="fix NullPointerException sonar issue">
-      <created>1651614326047</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1651614326047</updated>
-    </task>
-    <task id="LOCAL-00027" summary="imporove unit test coverage  with null validation">
-      <created>1651615164508</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1651615164508</updated>
-    </task>
-    <task id="LOCAL-00028" summary="imporove unit test coverage  with null validation&#10;and alosi clean uo build&#10;yamls">
-      <created>1651615301477</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1651615301477</updated>
-    </task>
-    <task id="LOCAL-00029" summary="remove some unused attrbutes">
-      <created>1651615901412</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1651615901412</updated>
-    </task>
-    <task id="LOCAL-00030" summary="revert to master just to se sonarclousds reaction">
-      <created>1651615994772</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1651615994772</updated>
-    </task>
-    <task id="LOCAL-00031" summary="ADD README MD COMMENT">
-      <created>1651616151926</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1651616151926</updated>
-    </task>
-    <task id="LOCAL-00032" summary="revert to main">
-      <created>1651616428832</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1651616428832</updated>
-    </task>
-    <task id="LOCAL-00033" summary="just trigger build">
-      <created>1651616920329</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1651616920329</updated>
     </task>
     <task id="LOCAL-00034" summary="update secret">
       <created>1651617779309</created>
@@ -536,7 +447,84 @@
       <option name="project" value="LOCAL" />
       <updated>1652453902095</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="raise coverage to 100%">
+      <created>1652455372476</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455372476</updated>
+    </task>
+    <task id="LOCAL-00073" summary="raise coverage to 100%">
+      <created>1652455567315</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1652455567315</updated>
+    </task>
+    <task id="LOCAL-00074" summary="raise coverage to max by adding lombock config">
+      <created>1652456423833</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1652456423833</updated>
+    </task>
+    <task id="LOCAL-00075" summary="raise coverage to max by adding lombock config">
+      <created>1652456883502</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1652456883502</updated>
+    </task>
+    <task id="LOCAL-00076" summary="remove attribute">
+      <created>1652457843108</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1652457843108</updated>
+    </task>
+    <task id="LOCAL-00077" summary="update ignore file">
+      <created>1652458570866</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1652458570867</updated>
+    </task>
+    <task id="LOCAL-00078" summary="add mvn clean step">
+      <created>1652458763230</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1652458763230</updated>
+    </task>
+    <task id="LOCAL-00079" summary="adjust git ignore">
+      <created>1652458992881</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1652458992881</updated>
+    </task>
+    <task id="LOCAL-00080" summary="FINE TUNE build.yml">
+      <created>1652459220516</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1652459220516</updated>
+    </task>
+    <task id="LOCAL-00081" summary="RETRY FINE TUNE build.yml">
+      <created>1652459334622</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1652459334622</updated>
+    </task>
+    <task id="LOCAL-00082" summary="2">
+      <created>1652459438191</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1652459438191</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -565,14 +553,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="fix yaml" />
-    <MESSAGE value="fix yaml build command" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 2" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 3" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 4" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 5" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 6" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 7" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 8" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value use mvn run" />
@@ -590,7 +570,15 @@
     <MESSAGE value="add failsafe support and .ignore file" />
     <MESSAGE value="clean up User class" />
     <MESSAGE value="raise coverage to 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="raise coverage to 100%" />
+    <MESSAGE value="raise coverage to max by adding lombock config" />
+    <MESSAGE value="remove attribute" />
+    <MESSAGE value="update ignore file" />
+    <MESSAGE value="add mvn clean step" />
+    <MESSAGE value="adjust git ignore" />
+    <MESSAGE value="FINE TUNE build.yml" />
+    <MESSAGE value="RETRY FINE TUNE build.yml" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,19 +589,9 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
           <line>41</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/ITLoginSteps.java</url>
@@ -634,39 +612,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
           <line>46</line>
           <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>30</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
@@ -707,7 +652,8 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull.ic" NAME="AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull Coverage Results" MODIFIED="1652455936919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_appCreateNewshouldAddNewUserToItsUsersList.ic" NAME="AppTest.appCreateNewshouldAddNewUserToItsUsersList Coverage Results" MODIFIED="1651581040708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1652455210605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1652458380709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
