@@ -4,4 +4,6 @@
 
 Template is now usable.
 
+TODO: When cloning , make sure that when you add a .gitignore file that the sonar results are not affected.
+
 Steeves Saillant
