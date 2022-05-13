@@ -22,7 +22,10 @@ public class LoginSteps implements io.cucumber.java8.En {
 
         Given("I user {string} with the password {string} and the {string} role", (String username, String password, String role) -> {
             User actual = this.application.createNewUser(username,password,Role.valueOf(role));
-            User expected = new User(username,password,Role.valueOf(role));
+            User expected = new User();
+            expected.setUsername(username);
+            expected.setPassword(password);
+            expected.setRole(Role.valueOf(role));
             assertThat(actual).usingRecursiveComparison()
                     .isEqualTo(expected);
         });

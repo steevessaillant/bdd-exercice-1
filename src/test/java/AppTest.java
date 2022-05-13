@@ -44,6 +44,14 @@ public class AppTest
     @Test(expected = NullPointerException.class)
     public void appLoginShouldThrowANullPointerExceptionWhenUserIsNull()
     {
-        User testUser = this.application.login(null);
+        this.application.login(null);
+    }
+
+    @Test
+    public void promoteToAdminRoleShouldPromoteTheUserToAdmin()
+    {
+        User actual = this.application.login(this.application.createNewUser("testuser","!!@#$$$ytuttest",Role.USER));
+        this.application.promoteUserToAdmin(Objects.requireNonNull(actual));
+        Assert.assertSame(Role.ADMIN, actual.getRole());
     }
 }

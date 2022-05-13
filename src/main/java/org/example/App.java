@@ -16,8 +16,10 @@ public class App
     public User createNewUser(String username, String password, Role role) {
 
         User user;
-
-        user = new User(username,password,role);
+        user = new User();
+        user.setUsername(username);
+        user.setPassword(password);
+        user.setRole(role);
         this.users.add(user);
         return user;
 
@@ -34,5 +36,9 @@ public class App
         else
             throw new NullPointerException();
         return authenticatedUser;
+    }
+
+    public void promoteUserToAdmin(User testUser) {
+        testUser.setRole(Role.ADMIN);
     }
 }
