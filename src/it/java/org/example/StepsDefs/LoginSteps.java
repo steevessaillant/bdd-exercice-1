@@ -18,7 +18,10 @@ public class LoginSteps implements io.cucumber.java8.En {
     private User authenticatedUser;
     public LoginSteps(){
 
-        Before(() -> this.application = new App());
+        Before(() -> {
+            this.application = new App();
+            System.out.println("Before All LoginSteps");
+        });
 
         Given("I user {string} with the password {string} and the {string} role", (String username, String password, String role) -> {
             User actual = this.application.createNewUser(username,password,Role.valueOf(role));

@@ -67,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="Cucumber Java.Feature: SimpleFeature (1)">
     <configuration name="Feature: SimpleFeature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
@@ -171,9 +171,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
-        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
         <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
       </list>
