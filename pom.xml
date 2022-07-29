@@ -69,6 +69,7 @@
         <sonar.coverage.jacoco.xmlReportPaths>
             target/site/jacoco/jacoco.xml
         </sonar.coverage.jacoco.xmlReportPaths>
+        <idaithalam.version>1.7.0</idaithalam.version>
     </properties>
     <dependencies>
         <dependency>
@@ -119,7 +120,12 @@
             <artifactId>reporting-plugin</artifactId>
             <version>7.3.0</version>
         </dependency>
-
+        <!-- transforms excel or postman collection to a cucumber feature file -->
+        <dependency>
+            <groupId>io.virtualan</groupId>
+            <artifactId>idaithalam</artifactId>
+            <version>${idaithalam.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

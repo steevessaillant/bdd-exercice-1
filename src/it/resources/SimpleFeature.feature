@@ -1,4 +1,3 @@
-@language:en
 Feature: Login to the system
 #Cette fonctionalite couvre la story JIR-0001 sur jira add comments
 

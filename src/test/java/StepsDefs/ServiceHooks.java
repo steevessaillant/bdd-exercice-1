@@ -1,17 +1,17 @@
 package StepsDefs;
 
-import org.junit.After;
-import org.junit.Before;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.BeforeAll;
 
 
 public class ServiceHooks {
-    @Before
-    public void initializeTest(){
-        // Code to setup initial configurations
+    @BeforeAll
+    public void initializeTests(){
+        System.console().printf("BEFORE ALL");
     }
 
-    @After
-    public void teardownTest(){
-
+    @AfterAll
+    public void teardownTests(){
+        System.console().printf("AFTER ALL");
     }
 }

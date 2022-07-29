@@ -4,13 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="761d4f6d-fc31-411a-b0d1-93a998af2547" name="Changes" comment="improve assert thrown">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+    <list default="true" id="761d4f6d-fc31-411a-b0d1-93a998af2547" name="Changes" comment="comment out for now and rename .wip">
+      <change afterPath="$PROJECT_DIR$/src/it/resources/Authentification.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/virtualan/test/ContractValidationTestExecution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/apiexecution.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/idaithalan.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/virtualan-xml.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtualan-collection/postman/simple/idaithalan_v1.0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtualan-collection/postman/variables/variables.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepsDefs/ServiceHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepsDefs/ServiceHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bdd-exercice-1-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/App.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Role.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/Role.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/User.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/User.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/org.example/index.source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RunCucumberTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RunCucumberTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleFeature.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepsDefs/ServiceHooks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/StepsDefs/LoginSteps.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -19,8 +83,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,60 +108,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;LombokPluginIS_LOMBOK_JPS_FIX_ENABLED&quot;: &quot;true&quot;,
-    &quot;LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/test/java/org/example&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/SteevesSaillant/source/github/bdd-exercice-1/target/IntelliJ-Cov-Output&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "LombokPluginIS_LOMBOK_JPS_FIX_ENABLED": "true",
+    "LombokPluginIS_LOMBOK_VERSION_CHECK_Enabled": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_directory_selection": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/test/java",
+    "last_opened_file_path": "C:/Users/SteevesSaillant/source/github/bdd-exercice-1/src/it/java/org/example/StepsDefs",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "tools.buf"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1" />
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\it\resources" />
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\test\resources" />
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\it\resources" />
+      <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\test" />
       <recent name="C:\Users\SteevesSaillant\source\github\bdd-exercice-1\src\it" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SimpleFeature (1)">
-    <configuration name="Feature: SimpleFeature (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Authentification">
+    <configuration name="Feature: Authentification" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
-      <option name="GLUE" value="org.example.StepsDefs" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/Authentification.feature" />
+      <option name="GLUE" value="org.example.StepsDefs io.virtualan.cucumblan.core" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="bdd-exercice-1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: SimpleFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.15.10-hotspot" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/SimpleFeature.feature" />
-      <option name="GLUE" value="org.example.StepDefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="bdd-exercice-1" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
+      <option name="SUGGESTED_NAME" value="Feature: Authentification" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -111,15 +168,11 @@
     </configuration>
     <configuration name="Feature: SimpleFeature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <envs>
-        <env name="CUCUMBER_PUBLISH_TOKEN" value="643a98b2-057c-4fab-ad07-92a3613172c1" />
-      </envs>
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/SimpleFeature.feature" />
-      <option name="GLUE" value="org.example.StepsDefs" />
+      <option name="GLUE" value="org.example.StepsDefs io.virtualan.cucumblan.core" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="bdd-exercice-1" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: SimpleFeature" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -132,50 +185,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Features" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources" />
+      <option name="GLUE" value="org.example.StepsDefs io.virtualan.cucumblan.core" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd-exercice-1" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: Authentification" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Éric veut retirer de l'argent de son compte bancaire à un guichet automatique" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/it/resources/Authentification.feature" />
+      <option name="GLUE" value="org.example.StepsDefs io.virtualan.cucumblan.core" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="bdd-exercice-1" />
+      <option name="NAME_FILTER" value="^Éric veut retirer de l\'argent de son compte bancaire à un guichet automatique$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Éric veut retirer de l\'argent de son compte bancaire à un guichet automatique$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Éric veut retirer de l'argent de son compte bancaire à un guichet automatique" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCucumberIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bdd-exercice-1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunCucumberIT" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bdd-exercice-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bdd-exercice-1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
+      <item itemvalue="Cucumber Java.Feature: Authentification" />
       <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
-      <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
-      <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
-      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="Cucumber Java.Scenario: Éric veut retirer de l'argent de son compte bancaire à un guichet automatique" />
+      <item itemvalue="Cucumber Java.Features" />
+      <item itemvalue="JUnit.RunCucumberIT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: SimpleFeature (1)" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.appLoginShouldThrowANullPointerExceptionWhenUserIsNull" />
-        <item itemvalue="JUnit.AppTest.appLoginShouldReturnAnExistingUserFromUsersListAndAuthenticateThisUser" />
+        <item itemvalue="Cucumber Java.Feature: Authentification" />
+        <item itemvalue="Cucumber Java.Scenario: Éric veut retirer de l'argent de son compte bancaire à un guichet automatique" />
+        <item itemvalue="JUnit.RunCucumberIT" />
         <item itemvalue="Cucumber Java.Feature: SimpleFeature" />
+        <item itemvalue="Cucumber Java.Features" />
       </list>
     </recent_temporary>
   </component>
@@ -187,27 +259,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651497598533</updated>
-    </task>
-    <task id="LOCAL-00025" summary="fix build  no2">
-      <created>1651613710631</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1651613710631</updated>
-    </task>
-    <task id="LOCAL-00026" summary="fix NullPointerException sonar issue">
-      <created>1651614326047</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1651614326047</updated>
-    </task>
-    <task id="LOCAL-00027" summary="imporove unit test coverage  with null validation">
-      <created>1651615164508</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1651615164508</updated>
     </task>
     <task id="LOCAL-00028" summary="imporove unit test coverage  with null validation&#10;and alosi clean uo build&#10;yamls">
       <created>1651615301477</created>
@@ -531,7 +582,28 @@
       <option name="project" value="LOCAL" />
       <updated>1652469276162</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="add println">
+      <created>1654708397228</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1654708397228</updated>
+    </task>
+    <task id="LOCAL-00075" summary="comment out for now">
+      <created>1654708606136</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1654708606136</updated>
+    </task>
+    <task id="LOCAL-00076" summary="comment out for now and rename .wip">
+      <created>1654708671610</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1654708671610</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -560,9 +632,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
-    <MESSAGE value="fix yaml build command" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value" />
-    <MESSAGE value="fix yaml build command parameter Dsonar.test value 2" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 3" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 4" />
     <MESSAGE value="fix yaml build command parameter Dsonar.test value 5" />
@@ -585,7 +654,10 @@
     <MESSAGE value="raise coverage to 100%" />
     <MESSAGE value="add comment" />
     <MESSAGE value="improve assert thrown" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve assert thrown" />
+    <MESSAGE value="add println" />
+    <MESSAGE value="comment out for now" />
+    <MESSAGE value="comment out for now and rename .wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment out for now and rename .wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,19 +668,9 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
-          <line>44</line>
+          <line>42</line>
           <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/it/java/org/example/StepsDefs/ITLoginSteps.java</url>
@@ -626,42 +688,139 @@
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>30</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/App.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/AppTest.java</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>104</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>31</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>37</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>38</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.class</url>
+          <line>40</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>105</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>106</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>107</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>108</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>109</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0.jar!/io/virtualan/idaithalam/contract/IdaithalamExecutor.class</url>
+          <line>110</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/virtualan/idaithalam/1.7.0/idaithalam-1.7.0-sources.jar!/io/virtualan/idaithalam/core/api/VirtualanTestPlanExecutor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -673,6 +832,7 @@
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="testUser.toString()" />
+        <watch expression="IdaithalamExecutor" />
       </configuration>
       <configuration name="CucumberJavaRunConfigurationType">
         <watch expression="actual" />
@@ -697,8 +857,16 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$ContractValidationTestExecution_testContractValidation.ic" NAME="ContractValidationTestExecution.testContractValidation Coverage Results" MODIFIED="1654714883246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull.ic" NAME="AppTest.promoteToAdminRoleShouldThrowANullPointerExceptionWhenUserIsNull Coverage Results" MODIFIED="1652455936919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest_appCreateNewshouldAddNewUserToItsUsersList.ic" NAME="AppTest.appCreateNewshouldAddNewUserToItsUsersList Coverage Results" MODIFIED="1651581040708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$Feature__SimpleFeature.exec" NAME="Feature: SimpleFeature Coverage Results" MODIFIED="1659105123250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+      <FILTER>*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/bdd_exercice_1$AppTest.ic" NAME="AppTest Coverage Results" MODIFIED="1652469389067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bdd_exercice_1$Feature__SimpleFeature.ic" NAME="Feature: SimpleFeature Coverage Results" MODIFIED="1659104812304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
